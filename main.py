@@ -9,7 +9,7 @@ import os                         # allows us to interact with operating system
 
 
 
-print("Initializing Jarvis")
+print("Initializing Nova")
 
 MASTER = 'Aditi'
 engine = pyttsx3.init('sapi5')
@@ -25,7 +25,7 @@ def speak(text):
     engine.say(text)  # Method for the speaking of the the assistant
     engine.runAndWait() # Blocks while processing all the currently queued commands
 
-speak('Initializing Jarvis...')
+speak('Initializing Nova...')
 
 
 # This function will greet you as per the current time.
@@ -43,8 +43,8 @@ def wishMe():
         speak("Good Evening" + ' ' + MASTER)
         print("Good Evening" + ' ' + MASTER)
 
-    speak('I am your jarvis')
-    print('I am your jarvis')
+    speak('I am your Nova')
+    print('I am your Nova')
     speak('What can I do for you?')
     print('What can I do for you?')
 
